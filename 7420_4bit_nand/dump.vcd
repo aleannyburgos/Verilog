@@ -1,0 +1,66 @@
+$date
+	Tue May 27 17:54:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_module $end
+$var wire 1 ! p2y $end
+$var wire 1 " p1y $end
+$var reg 1 # p1a $end
+$var reg 1 $ p1b $end
+$var reg 1 % p1c $end
+$var reg 1 & p1d $end
+$var reg 1 ' p2a $end
+$var reg 1 ( p2b $end
+$var reg 1 ) p2c $end
+$var reg 1 * p2d $end
+$scope module dut $end
+$var wire 1 # p1a $end
+$var wire 1 $ p1b $end
+$var wire 1 % p1c $end
+$var wire 1 & p1d $end
+$var wire 1 " p1y $end
+$var wire 1 ' p2a $end
+$var wire 1 ( p2b $end
+$var wire 1 ) p2c $end
+$var wire 1 * p2d $end
+$var wire 1 ! p2y $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+0*
+0)
+0(
+0'
+0&
+0%
+0$
+0#
+1"
+1!
+$end
+#10000
+0!
+1'
+1(
+1)
+1*
+#20000
+1!
+1$
+1&
+0(
+0*
+#30000
+0&
+0)
+#40000
