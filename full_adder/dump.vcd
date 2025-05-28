@@ -1,0 +1,64 @@
+$date
+	Wed May 28 14:37:32 2025
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1ps
+$end
+$scope module top_module $end
+$var wire 5 ! sum [4:0] $end
+$var reg 4 " x [3:0] $end
+$var reg 4 # y [3:0] $end
+$scope module dut $end
+$var wire 4 $ x [3:0] $end
+$var wire 4 % y [3:0] $end
+$var wire 5 & sum [4:0] $end
+$var wire 3 ' cout [2:0] $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+$end
+#0
+$dumpvars
+b0 '
+b0 &
+b0 %
+b0 $
+b0 #
+b0 "
+b0 !
+$end
+#10000
+b11 !
+b11 &
+b10 #
+b10 %
+b1 "
+b1 $
+#20000
+b1100 !
+b1100 &
+b1000 #
+b1000 %
+b100 "
+b100 $
+#30000
+b111 !
+b111 &
+b101 #
+b101 %
+b10 "
+b10 $
+#40000
+b11110 !
+b11110 &
+b111 '
+b1111 #
+b1111 %
+b1111 "
+b1111 $
+#50000
